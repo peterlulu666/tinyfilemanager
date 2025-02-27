@@ -417,13 +417,13 @@ defined('FM_USE_HIGHLIGHTJS') || define('FM_USE_HIGHLIGHTJS', $use_highlightjs);
 defined('FM_HIGHLIGHTJS_STYLE') || define('FM_HIGHLIGHTJS_STYLE', $highlightjs_style);
 defined('FM_DATETIME_FORMAT') || define('FM_DATETIME_FORMAT', $datetime_format);
 
-// Debug output after FM_PATH is set
-echo "Root (from CONFIG): " . json_decode($CONFIG)->root . "<br>";
-echo "Start Path: " . json_decode($CONFIG)->start_path . "<br>";
-echo "Requested Path (p): " . (isset($_GET['p']) ? $_GET['p'] : 'none') . "<br>";
-echo "Effective FM_ROOT_PATH: " . FM_ROOT_PATH . "<br>";
-echo "Effective FM_PATH: " . FM_PATH . "<br>";
-echo "Current Directory Shown: " . realpath(FM_ROOT_PATH . '/' . FM_PATH) . "<br>";
+// // Debug output after FM_PATH is set
+// echo "Root (from CONFIG): " . json_decode($CONFIG)->root . "<br>";
+// echo "Start Path: " . json_decode($CONFIG)->start_path . "<br>";
+// echo "Requested Path (p): " . (isset($_GET['p']) ? $_GET['p'] : 'none') . "<br>";
+// echo "Effective FM_ROOT_PATH: " . FM_ROOT_PATH . "<br>";
+// echo "Effective FM_PATH: " . FM_PATH . "<br>";
+// echo "Current Directory Shown: " . realpath(FM_ROOT_PATH . '/' . FM_PATH) . "<br>";
 
 /*************************** ACTIONS ***************************/
 
